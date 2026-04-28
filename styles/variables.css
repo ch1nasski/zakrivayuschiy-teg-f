@@ -3,7 +3,7 @@
   --accent-font: 'PressStart2P', fantasy;
 
   --main-text-weight: 400;
-  --card-title-weight: 700;
+  --card-title-weight: 785;
 
   --block-width: clamp(375px, 30.5164vw + 260.5634px, 700px);
   --header-padding-block: 130px;

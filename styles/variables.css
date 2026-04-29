@@ -2,12 +2,12 @@
   --main-font: 'Inter', sans-serif;
   --accent-font: 'PressStart2P', fantasy;
 
-  --main-text-weight: 400;
-  --card-title-weight: 785;
+  --main-text-weight: 410;
+  --card-title-weight: 715;
 
-  --block-width: clamp(375px, 30.5164vw + 260.5634px, 700px);
-  --header-padding-block: 130px;
-  --header-padding-inline: 122.5px;
+  --block-width: clamp(375px, 100%, 700px);
+  --header-padding-block: clamp(120px, 0.9389vw + 116.4789px, 130px);
+  --header-padding-inline: clamp(14px, 10.1878vw - 24.2042px, 122.5px);
   --header-logo-size: clamp(3.0625rem, 1.5023vw + 2.7104rem, 4.0625rem);
   --header-title-size: clamp(0.875rem, 0.8451vw + 0.6769rem, 1.4375rem);
   --label-stroke-color: #fff;
@@ -22,3 +22,5 @@
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 }
+
+
